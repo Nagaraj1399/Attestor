@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Planted Violation: 4.1.2 Name, Role, Value (Unnamed Button)</title>
+  <style>
+    * { box-sizing: border-box; transition: none !important; animation: none !important; }
+    body { font-family: sans-serif; padding: 32px; margin: 0; color: #0f172a; }
+    *:focus-visible { outline: 2px solid #2563eb !important; outline-offset: 2px !important; }
+    .card { border: 1px solid #e2e8f0; border-radius: 8px; padding: 24px; max-width: 480px; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="card">
+      <h1>Payment Details</h1>
+      <p>Total amount: $49.00 USD monthly subscription.</p>
+
+      <form action="#" method="POST" onsubmit="return false;">
+        <div>
+          <label for="cardholder">Cardholder Name</label>
+          <input type="text" id="cardholder" value="Ada Lovelace" style="width: 100%; padding: 8px; margin-top: 4px;" />
+        </div>
+
+        <!-- PLANTED VIOLATION: Button with only an SVG icon, NO inner text, NO aria-label, NO title -->
+        <!-- Sighted user sees Credit Card icon; screen reader synthesizes bare 'button' -->
+        <div style="margin-top: 16px;">
+          <button id="checkout-btn" type="submit" style="background: #2563eb; padding: 12px 24px; border: none; border-radius: 6px; cursor: pointer;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="20" height="14" x="2" y="5" rx="2"/>
+              <line x1="2" x2="22" y1="10" y2="10"/>
+            </svg>
+          </button>
+        </div>
+      </form>
+    </div>
+  </main>
+</body>
+</html>

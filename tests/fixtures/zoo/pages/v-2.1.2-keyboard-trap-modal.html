@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Planted Violation: 2.1.2 Keyboard Trap Modal</title>
+  <style>
+    * { box-sizing: border-box; transition: none !important; animation: none !important; }
+    body { font-family: sans-serif; padding: 32px; margin: 0; color: #0f172a; }
+    *:focus-visible { outline: 2px solid #2563eb !important; outline-offset: 2px !important; }
+    .modal-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; }
+    .modal { background: white; padding: 24px; border-radius: 8px; width: 400px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Account Security Verification</h1>
+    <div class="modal-backdrop">
+      <!-- PLANTED VIOLATION: Keyboard trap modal. Suppresses Escape, cycles indefinitely without exit affordance -->
+      <div id="security-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-heading">
+        <h2 id="modal-heading" style="margin-top: 0;">Enter One-Time Security Code</h2>
+        <p>A verification code was sent to your authorized mobile device.</p>
+        <div>
+          <label for="2fa-code">Security Code</label>
+          <input type="text" id="2fa-code" style="width: 100%; padding: 8px; margin-top: 4px;" required />
+        </div>
+        <div style="margin-top: 16px;">
+          <button id="verify-submit" type="button" style="background: #2563eb; color: white; border: none; padding: 8px 16px; border-radius: 4px;">
+            Verify
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script>
+    // Trapping script: swallows Escape key and restricts focus between input and button only
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        e.preventDefault();
+        e.stopPropagation(); // Suppresses escape dismissal!
+      }
+    });
+  </script>
+</body>
+</html>

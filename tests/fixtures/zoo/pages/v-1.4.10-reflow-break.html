@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Planted Violation: 1.4.10 Reflow Break</title>
+  <style>
+    * { box-sizing: border-box; transition: none !important; animation: none !important; }
+    body { font-family: sans-serif; padding: 32px; margin: 0; color: #0f172a; }
+    *:focus-visible { outline: 2px solid #2563eb !important; outline-offset: 2px !important; }
+    /* PLANTED VIOLATION: Hardcoded 1200px container width forcing horizontal scroll on 320px width */
+    .fixed-width-box {
+      width: 1200px;
+      background: #f1f5f9;
+      padding: 24px;
+      border: 1px solid #cbd5e1;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Wide Telemetry Dataset</h1>
+    <div id="fixed-table-container" class="fixed-width-box">
+      <p>This wide data block does not reflow at 320px CSS width, forcing two-dimensional horizontal scrolling.</p>
+      <button id="export-wide" type="button" style="padding: 8px 16px; background: #2563eb; color: white; border: none; border-radius: 4px;">
+        View details
+      </button>
+    </div>
+  </main>
+</body>
+</html>

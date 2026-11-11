@@ -1,0 +1,82 @@
+{
+  "step_index": 0,
+  "timestamp": "2026-11-06T08:40:21.677781+00:00",
+  "url": "https://example.com",
+  "action": {
+    "type": "navigate",
+    "key": null,
+    "target": "https://example.com"
+  },
+  "focused_node": {
+    "backendNodeId": 101,
+    "nodeId": 1,
+    "nodeName": "A",
+    "role": "link",
+    "accessible_name": "More information...",
+    "selector": "body > div > p > a",
+    "boundingBox": {
+      "x": 80,
+      "y": 210,
+      "width": 160,
+      "height": 32
+    }
+  },
+  "accessible_name": "More information...",
+  "role": "link",
+  "state": "visited",
+  "synthesized_announcement": "More information..., link, visited",
+  "computed_styles": {
+    "outline": "2px auto -webkit-focus-ring-color",
+    "outlineColor": "rgb(37, 99, 235)",
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineOffset": "2px",
+    "boxShadow": "none",
+    "border": "none",
+    "contrastRatio": 7.4
+  },
+  "ax_tree": [
+    {
+      "nodeId": 1,
+      "backendDOMNodeId": 101,
+      "role": {
+        "type": "role",
+        "value": "link"
+      },
+      "name": {
+        "type": "computedString",
+        "value": "More information..."
+      },
+      "properties": [
+        {
+          "name": "focusable",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        },
+        {
+          "name": "focused",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ]
+    }
+  ],
+  "dom_snapshot": "<a class='interactive'>More information...</a>",
+  "announcements": [],
+  "network": [
+    {
+      "status": 200,
+      "url": "https://example.com",
+      "mimeType": "text/html"
+    }
+  ],
+  "is_trap_candidate": false,
+  "is_focus_order_candidate": false,
+  "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "hash": "540f90d055cbad89ebc935470e7edfd866217bd9f23a3a4ac248914103935c16",
+  "screenshot": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjgwIDgwMCIgd2lkdGg9IjEyODAiIGhlaWdodD0iODAwIj4KICAgICAgPGRlZnM+CiAgICAgICAgPGZpbHRlciBpZD0ic2hhZG93IiB4PSItNSUiIHk9Ii01JSIgd2lkdGg9IjExMCUiIGhlaWdodD0iMTEwJSI+CiAgICAgICAgICA8ZmVEcm9wU2hhZG93IGR4PSIwIiBkeT0iMiIgc3RkRGV2aWF0aW9uPSI0IiBmbG9vZC1vcGFjaXR5PSIwLjA4Ii8+CiAgICAgICAgPC9maWx0ZXI+CiAgICAgIDwvZGVmcz4KICAgICAgPCEtLSBCcm93c2VyIGNocm9tZSAtLT4KICAgICAgPHJlY3Qgd2lkdGg9IjEyODAiIGhlaWdodD0iODAwIiBmaWxsPSIjZjhmYWZjIiAvPgogICAgICA8cmVjdCB3aWR0aD0iMTI4MCIgaGVpZ2h0PSI2NCIgZmlsbD0iIzBmMTcyYSIgLz4KICAgICAgPGNpcmNsZSBjeD0iMjgiIGN5PSIzMiIgcj0iNiIgZmlsbD0iI2VmNDQ0NCIgLz4KICAgICAgPGNpcmNsZSBjeD0iNDgiIGN5PSIzMiIgcj0iNiIgZmlsbD0iI2Y1OWUwYiIgLz4KICAgICAgPGNpcmNsZSBjeD0iNjgiIGN5PSIzMiIgcj0iNiIgZmlsbD0iIzEwYjk4MSIgLz4KICAgICAgPHJlY3QgeD0iMTAwIiB5PSIxNiIgd2lkdGg9IjcwMCIgaGVpZ2h0PSIzMiIgcng9IjYiIGZpbGw9IiMxZTI5M2IiIC8+CiAgICAgIDx0ZXh0IHg9IjEyMCIgeT0iMzgiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTMiIGZpbGw9IiM5NGEzYjgiPmh0dHBzOi8vZXhhbXBsZS5jb208L3RleHQ+CgogICAgICA8IS0tIFZpZXdwb3J0IENvbnRlbnQgQ2FyZCAtLT4KICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDAsIDg0KSI+CiAgICAgICAgPHJlY3Qgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjkwIiByeD0iMTIiIGZpbGw9IiNmZmZmZmYiIHN0cm9rZT0iI2UyZThmMCIgc3Ryb2tlLXdpZHRoPSIxIiBmaWx0ZXI9InVybCgjc2hhZG93KSIgLz4KICAgICAgICA8dGV4dCB4PSI0MCIgeT0iNjAiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjgiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMwZjE3MmEiPkV4YW1wbGUgRG9tYWluPC90ZXh0PgogICAgICAgIDxsaW5lIHgxPSI0MCIgeTE9Ijg1IiB4Mj0iMTE2MCIgeTI9Ijg1IiBzdHJva2U9IiNmMWY1ZjkiIHN0cm9rZS13aWR0aD0iMS41IiAvPgogICAgICAgIAogICAgICAgICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4MCwyMTApIj4KICAgICAgICAgICAgICA8cmVjdCB3aWR0aD0iMTYwIiBoZWlnaHQ9IjMyIiByeD0iNiIgZmlsbD0iI2VmZjZmZiIgc3Ryb2tlPSIjMjU2M2ViIiBzdHJva2Utd2lkdGg9IjMiIC8+CiAgICAgICAgICAgICAgPHJlY3QgeD0iLTQiIHk9Ii00IiB3aWR0aD0iMTY4IiBoZWlnaHQ9IjQwIiByeD0iMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzYwYTVmYSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtZGFzaGFycmF5PSI0IDIiIC8+CiAgICAgICAgICAgICAgPHRleHQgeD0iMTIiIHk9IjIxLjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iNjAwIiBmaWxsPSIjMWUzYThhIj5Nb3JlIGluZm9ybWF0aW9uLi4uPC90ZXh0PgogICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjE0NiIgY3k9IjE2LjAiIHI9IjUiIGZpbGw9IiMyNTYzZWIiIC8+CiAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgCiAgICAgIDwvZz4KICAgIDwvc3ZnPg=="
+}

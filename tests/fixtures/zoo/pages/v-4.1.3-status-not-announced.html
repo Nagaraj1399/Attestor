@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Planted Violation: 4.1.3 Status Not Announced</title>
+  <style>
+    * { box-sizing: border-box; transition: none !important; animation: none !important; }
+    body { font-family: sans-serif; padding: 32px; margin: 0; color: #0f172a; }
+    *:focus-visible { outline: 2px solid #2563eb !important; outline-offset: 2px !important; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Repository Search</h1>
+    <div>
+      <label for="search-input">Search query</label>
+      <input type="text" id="search-input" style="padding: 8px; width: 300px;" placeholder="Filter components..." />
+      <button id="search-btn" type="button" style="padding: 8px 16px; background: #2563eb; color: white; border: none; border-radius: 4px;" onclick="document.getElementById('results-counter').innerText = '14 matching audit findings loaded';">
+        Search
+      </button>
+    </div>
+
+    <!-- PLANTED VIOLATION: Asynchronous text counter lacking role="status" and lacking aria-live -->
+    <div id="results-counter" style="margin-top: 16px; font-weight: bold; color: #1e293b;">
+      0 findings loaded
+    </div>
+  </main>
+</body>
+</html>

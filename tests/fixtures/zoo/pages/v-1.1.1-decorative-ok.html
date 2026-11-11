@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tempting Control Case: Decorative Image with alt=""</title>
+  <style>
+    * { box-sizing: border-box; transition: none !important; animation: none !important; }
+    body { font-family: sans-serif; padding: 32px; margin: 0; color: #0f172a; }
+    *:focus-visible { outline: 2px solid #2563eb !important; outline-offset: 2px !important; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Product Architecture</h1>
+    <p>Our platform uses distributed consensus protocols.</p>
+
+    <!-- CORRECT-BUT-TEMPTING CASE: Decorative divider correctly has alt="" and aria-hidden="true" - MUST NOT FLAG -->
+    <img id="decorative-divider" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='4'><rect width='100' height='4' fill='%23cbd5e1'/></svg>" alt="" aria-hidden="true" width="100" height="4" />
+
+    <p style="margin-top: 16px;">
+      <a href="#details" id="more-link" style="color: #2563eb;">Detailed whitepaper</a>
+    </p>
+  </main>
+</body>
+</html>

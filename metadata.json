@@ -1,0 +1,6 @@
+{
+  "name": "Attestor",
+  "description": "Proof your product behaves. Signed Accessibility Conformance Reports (VPAT 2.5 / EN 301 549) with cryptographic evidence chain.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

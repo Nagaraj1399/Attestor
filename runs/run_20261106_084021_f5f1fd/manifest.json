@@ -1,0 +1,15 @@
+{
+  "run_id": "run_20261106_084021_f5f1fd",
+  "target_url": "https://example.com",
+  "page_title": "Example Domain",
+  "timestamp": "2026-11-06T08:40:21.678187+00:00",
+  "commit_sha": "d7e93f18bca42e0915a3c9b74026859385b248a1",
+  "attestor_version": "2026.2.0-preview",
+  "total_steps": 1,
+  "step_hashes": [
+    "540f90d055cbad89ebc935470e7edfd866217bd9f23a3a4ac248914103935c16"
+  ],
+  "final_step_hash": "540f90d055cbad89ebc935470e7edfd866217bd9f23a3a4ac248914103935c16",
+  "evidence_manifest_hash": "ef91e5ba2474c505c070982953e29784a7ccfdd167715ed04cc0caf0446152e8",
+  "cryptographic_signature": "67fe4b55511045b895d05d344395844743605aa8967042fd47b608a84a631efe"
+}

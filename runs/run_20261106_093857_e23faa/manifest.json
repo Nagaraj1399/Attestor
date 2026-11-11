@@ -1,0 +1,16 @@
+{
+  "run_id": "run_20261106_093857_e23faa",
+  "target_url": "http://127.0.0.1:8899/v-4.1.2-unnamed-button.html",
+  "page_title": "Planted Violation: 4.1.2 Name, Role, Value (Unnamed Button)",
+  "timestamp": "2026-11-06T09:38:57.410773+00:00",
+  "commit_sha": "d7e93f18bca42e0915a3c9b74026859385b248a1",
+  "attestor_version": "2026.2.0-preview",
+  "total_steps": 2,
+  "step_hashes": [
+    "4ba17ff87176efa0ef6eadc0ffc7cfcc9665fc57011c7be436ee6f5f1d7adb3b",
+    "1d2a173d4b6080088adc5b79ee5bc152e995e8b50a0cff33d8c42cc7d71cdc19"
+  ],
+  "final_step_hash": "1d2a173d4b6080088adc5b79ee5bc152e995e8b50a0cff33d8c42cc7d71cdc19",
+  "evidence_manifest_hash": "76477c0cfcda77de555248d7774cee819189a6238285ad9e82deeff796a549fe",
+  "cryptographic_signature": "e39d3716328a3899b919772c35297a075c2a4a865b5c9f27b07a38728b8455ad"
+}

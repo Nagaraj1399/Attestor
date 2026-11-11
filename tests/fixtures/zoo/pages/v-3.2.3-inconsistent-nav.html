@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Planted Violation: 3.2.3 Consistent Navigation</title>
+  <style>
+    * { box-sizing: border-box; transition: none !important; animation: none !important; }
+    body { font-family: sans-serif; padding: 32px; margin: 0; color: #0f172a; }
+    *:focus-visible { outline: 2px solid #2563eb !important; outline-offset: 2px !important; }
+    nav ul { list-style: none; display: flex; gap: 16px; padding: 0; margin-bottom: 24px; }
+    nav a { text-decoration: none; color: #2563eb; font-weight: 500; }
+  </style>
+</head>
+<body>
+  <!-- Standard site order across all other pages: [Home, Products, Pricing, About] -->
+  <!-- PLANTED VIOLATION: Subpage arbitrarily swaps relative navigation order to [Pricing, Home, Products, About] -->
+  <nav id="primary-nav" aria-label="Main Navigation">
+    <ul>
+      <li><a href="/pricing">Pricing</a></li>
+      <li><a href="/">Home</a></li>
+      <li><a href="/products">Products</a></li>
+      <li><a href="/about">About</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Product Pricing Matrix</h1>
+    <p>Compare enterprise plans and automated accessibility audit tiers.</p>
+  </main>
+</body>
+</html>

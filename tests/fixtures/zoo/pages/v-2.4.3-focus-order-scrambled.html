@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Planted Violation: 2.4.3 Focus Order Scrambled</title>
+  <style>
+    * { box-sizing: border-box; transition: none !important; animation: none !important; }
+    body { font-family: sans-serif; padding: 32px; margin: 0; color: #0f172a; }
+    *:focus-visible { outline: 2px solid #2563eb !important; outline-offset: 2px !important; }
+    .layout { display: flex; flex-direction: column; gap: 20px; max-width: 600px; }
+    .row { display: flex; gap: 16px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Scrambled Focus Order</h1>
+    <div class="layout">
+      <!-- In DOM order, bottom cancellation button precedes top form inputs! -->
+      <div style="background: #f8fafc; padding: 16px; border: 1px solid #cbd5e1;">
+        <p>Exit before continuing?</p>
+        <button id="bottom-cancel" type="button" style="padding: 8px 16px; background: #94a3b8; color: white; border: none; border-radius: 4px;">
+          Cancel transaction
+        </button>
+      </div>
+
+      <div style="border: 1px solid #e2e8f0; padding: 16px;">
+        <label for="full-name">Full Name</label>
+        <input type="text" id="full-name" style="width: 100%; padding: 8px; margin-top: 4px;" />
+        
+        <div style="margin-top: 12px;">
+          <label for="street">Billing Street</label>
+          <input type="text" id="street" style="width: 100%; padding: 8px; margin-top: 4px;" />
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

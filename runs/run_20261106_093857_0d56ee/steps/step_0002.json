@@ -1,0 +1,82 @@
+{
+  "step_index": 2,
+  "timestamp": "2026-11-06T09:38:57.406393+00:00",
+  "url": "http://127.0.0.1:8899/clean-baseline.html",
+  "action": {
+    "type": "key",
+    "key": "Tab",
+    "target": "#work-email"
+  },
+  "focused_node": {
+    "backendNodeId": 104,
+    "nodeId": 4,
+    "nodeName": "INPUT",
+    "role": "textbox",
+    "accessible_name": "Corporate Work Email",
+    "selector": "#work-email",
+    "boundingBox": {
+      "x": 80,
+      "y": 292,
+      "width": 260,
+      "height": 38
+    }
+  },
+  "accessible_name": "Corporate Work Email",
+  "role": "textbox",
+  "state": "",
+  "synthesized_announcement": "Corporate Work Email, textbox",
+  "computed_styles": {
+    "outline": "2px solid #2563eb",
+    "outlineColor": "rgb(37, 99, 235)",
+    "outlineWidth": "2px",
+    "outlineStyle": "solid",
+    "outlineOffset": "2px",
+    "boxShadow": "none",
+    "border": "none",
+    "contrastRatio": 5.8
+  },
+  "ax_tree": [
+    {
+      "nodeId": 4,
+      "backendDOMNodeId": 104,
+      "role": {
+        "type": "role",
+        "value": "textbox"
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Corporate Work Email"
+      },
+      "properties": [
+        {
+          "name": "focusable",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        },
+        {
+          "name": "focused",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ]
+    }
+  ],
+  "dom_snapshot": "<input class='interactive'>Corporate Work Email</input>",
+  "announcements": [],
+  "network": [
+    {
+      "status": 200,
+      "url": "http://127.0.0.1:8899/clean-baseline.html",
+      "mimeType": "text/html"
+    }
+  ],
+  "is_trap_candidate": false,
+  "is_focus_order_candidate": false,
+  "screenshot": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjgwIDgwMCIgd2lkdGg9IjEyODAiIGhlaWdodD0iODAwIj4KICAgICAgPGRlZnM+CiAgICAgICAgPGZpbHRlciBpZD0ic2hhZG93IiB4PSItNSUiIHk9Ii01JSIgd2lkdGg9IjExMCUiIGhlaWdodD0iMTEwJSI+CiAgICAgICAgICA8ZmVEcm9wU2hhZG93IGR4PSIwIiBkeT0iMiIgc3RkRGV2aWF0aW9uPSI0IiBmbG9vZC1vcGFjaXR5PSIwLjA4Ii8+CiAgICAgICAgPC9maWx0ZXI+CiAgICAgIDwvZGVmcz4KICAgICAgPCEtLSBCcm93c2VyIGNocm9tZSAtLT4KICAgICAgPHJlY3Qgd2lkdGg9IjEyODAiIGhlaWdodD0iODAwIiBmaWxsPSIjZjhmYWZjIiAvPgogICAgICA8cmVjdCB3aWR0aD0iMTI4MCIgaGVpZ2h0PSI2NCIgZmlsbD0iIzBmMTcyYSIgLz4KICAgICAgPGNpcmNsZSBjeD0iMjgiIGN5PSIzMiIgcj0iNiIgZmlsbD0iI2VmNDQ0NCIgLz4KICAgICAgPGNpcmNsZSBjeD0iNDgiIGN5PSIzMiIgcj0iNiIgZmlsbD0iI2Y1OWUwYiIgLz4KICAgICAgPGNpcmNsZSBjeD0iNjgiIGN5PSIzMiIgcj0iNiIgZmlsbD0iIzEwYjk4MSIgLz4KICAgICAgPHJlY3QgeD0iMTAwIiB5PSIxNiIgd2lkdGg9IjcwMCIgaGVpZ2h0PSIzMiIgcng9IjYiIGZpbGw9IiMxZTI5M2IiIC8+CiAgICAgIDx0ZXh0IHg9IjEyMCIgeT0iMzgiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTMiIGZpbGw9IiM5NGEzYjgiPmh0dHA6Ly8xMjcuMC4wLjE6ODg5OS9jbGVhbi1iYXNlbGluZS5odG1sPC90ZXh0PgoKICAgICAgPCEtLSBWaWV3cG9ydCBDb250ZW50IENhcmQgLS0+CiAgICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQwLCA4NCkiPgogICAgICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjY5MCIgcng9IjEyIiBmaWxsPSIjZmZmZmZmIiBzdHJva2U9IiNlMmU4ZjAiIHN0cm9rZS13aWR0aD0iMSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiIC8+CiAgICAgICAgPHRleHQgeD0iNDAiIHk9IjYwIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjI4IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjMGYxNzJhIj5DbGVhbiBCYXNlbGluZSDigJQgQXR0ZXN0b3IgVmlvbGF0aW9uIFpvbyBDb250cm9sIFBhZ2U8L3RleHQ+CiAgICAgICAgPGxpbmUgeDE9IjQwIiB5MT0iODUiIHgyPSIxMTYwIiB5Mj0iODUiIHN0cm9rZT0iI2YxZjVmOSIgc3Ryb2tlLXdpZHRoPSIxLjUiIC8+CiAgICAgICAgCiAgICAgICAgICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDgwLDE4MCkiPgogICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSIyMDAiIGhlaWdodD0iMzYiIHJ4PSI2IiBmaWxsPSIjZmZmZmZmIiBzdHJva2U9IiNjYmQ1ZTEiIHN0cm9rZS13aWR0aD0iMSIgLz4KICAgICAgICAgICAgICA8dGV4dCB4PSIxMiIgeT0iMjMuMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiMzMzQxNTUiPlNraXAgdG8gbWFpbiBjb250ZW50PC90ZXh0PgogICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIAogICAgICAgICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4MCwyMzYpIj4KICAgICAgICAgICAgICA8cmVjdCB3aWR0aD0iMTcwIiBoZWlnaHQ9IjM2IiByeD0iNiIgZmlsbD0iI2ZmZmZmZiIgc3Ryb2tlPSIjY2JkNWUxIiBzdHJva2Utd2lkdGg9IjEiIC8+CiAgICAgICAgICAgICAgPHRleHQgeD0iMTIiIHk9IjIzLjAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiBmaWxsPSIjMzM0MTU1Ij5TZXJ2aWNlcyBPdmVydmlldzwvdGV4dD4KICAgICAgICAgICAgPC9nPgogICAgICAgICAgICAKICAgICAgICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoODAsMjkyKSI+CiAgICAgICAgICAgICAgPHJlY3Qgd2lkdGg9IjI2MCIgaGVpZ2h0PSIzOCIgcng9IjYiIGZpbGw9IiNlZmY2ZmYiIHN0cm9rZT0iIzI1NjNlYiIgc3Ryb2tlLXdpZHRoPSIzIiAvPgogICAgICAgICAgICAgIDxyZWN0IHg9Ii00IiB5PSItNCIgd2lkdGg9IjI2OCIgaGVpZ2h0PSI0NiIgcng9IjEwIiBmaWxsPSJub25lIiBzdHJva2U9IiM2MGE1ZmEiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWRhc2hhcnJheT0iNCAyIiAvPgogICAgICAgICAgICAgIDx0ZXh0IHg9IjEyIiB5PSIyNC4wIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZm9udC13ZWlnaHQ9IjYwMCIgZmlsbD0iIzFlM2E4YSI+Q29ycG9yYXRlIFdvcmsgRW1haWw8L3RleHQ+CiAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMjQ2IiBjeT0iMTkuMCIgcj0iNSIgZmlsbD0iIzI1NjNlYiIgLz4KICAgICAgICAgICAgPC9nPgogICAgICAgICAgICAKICAgICAgICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoODAsMzQ4KSI+CiAgICAgICAgICAgICAgPHJlY3Qgd2lkdGg9IjE0MCIgaGVpZ2h0PSI0NCIgcng9IjYiIGZpbGw9IiNmMWY1ZjkiIHN0cm9rZT0iI2NiZDVlMSIgc3Ryb2tlLXdpZHRoPSIxIiAvPgogICAgICAgICAgICAgIDx0ZXh0IHg9IjEyIiB5PSIyNy4wIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzMzNDE1NSI+U2F2ZSBhbmQgQ29udGludWU8L3RleHQ+CiAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgCiAgICAgIDwvZz4KICAgIDwvc3ZnPg==",
+  "prev_hash": "7e45ce781fd487c238f3c3700cb8e9182b8bd0b8f7aa39784f890123748f476b",
+  "hash": "71d24becf5acc3444c0ac32ceb7f94d344106859c022a1887730a75074a29d4a"
+}

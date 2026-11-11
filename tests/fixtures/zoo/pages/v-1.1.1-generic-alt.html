@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Planted Violation: 1.1.1 Generic Alt Text</title>
+  <style>
+    * { box-sizing: border-box; transition: none !important; animation: none !important; }
+    body { font-family: sans-serif; padding: 32px; margin: 0; color: #0f172a; }
+    *:focus-visible { outline: 2px solid #2563eb !important; outline-offset: 2px !important; }
+    .card { border: 1px solid #e2e8f0; border-radius: 8px; padding: 24px; max-width: 640px; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="card">
+      <h1>Q3 Financial Highlights</h1>
+      <p>Quarterly operating margins and revenue trajectories across business units.</p>
+
+      <!-- PLANTED VIOLATION: Generic alt text 'image' on data chart (WCAG 1.1.1 Failure) -->
+      <img id="revenue-trend" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='200'><rect width='400' height='200' fill='%23f1f5f9'/><polyline points='30,170 120,130 220,100 340,30' fill='none' stroke='%2316a34a' stroke-width='4'/><text x='30' y='30' font-family='sans-serif' font-weight='bold' fill='%230f172a'>Revenue: $2M to $9M</text></svg>" alt="image" width="400" height="200" />
+
+      <div style="margin-top: 16px;">
+        <button id="download-q3" type="button" style="padding: 8px 16px; background: #2563eb; color: white; border: none; border-radius: 4px;">
+          Download Q3 Statement
+        </button>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

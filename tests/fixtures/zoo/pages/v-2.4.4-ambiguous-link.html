@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Planted Violation: 2.4.4 Ambiguous Link Purpose</title>
+  <style>
+    * { box-sizing: border-box; transition: none !important; animation: none !important; }
+    body { font-family: sans-serif; padding: 32px; margin: 0; color: #0f172a; }
+    *:focus-visible { outline: 2px solid #2563eb !important; outline-offset: 2px !important; }
+    .article { margin-bottom: 24px; padding: 16px; border: 1px solid #e2e8f0; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Product Updates &amp; Security Advisories</h1>
+    <div class="article">
+      <h2>Q3 Vulnerability Mitigation Patch</h2>
+      <p>Details regarding kernel upgrade 5.15 and patch distributions.</p>
+      <!-- PLANTED VIOLATION: Ambiguous repeated link text without differentiating context -->
+      <a href="/advisory-1" class="more-link-1" style="color: #2563eb;">Read more</a>
+    </div>
+
+    <div class="article">
+      <h2>Privacy Shield Compliance Attestation</h2>
+      <p>Data processing agreements and European subprocessor list.</p>
+      <!-- PLANTED VIOLATION: Ambiguous repeated link text -->
+      <a href="/advisory-2" class="more-link-2" style="color: #2563eb;">Read more</a>
+    </div>
+  </main>
+</body>
+</html>
