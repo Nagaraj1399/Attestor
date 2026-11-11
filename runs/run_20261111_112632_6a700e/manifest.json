@@ -1,0 +1,18 @@
+{
+  "run_id": "run_20261111_112632_6a700e",
+  "target_url": "http://127.0.0.1:8899/clean-baseline.html",
+  "page_title": "Clean Baseline \u2014 Attestor Violation Zoo Control Page",
+  "timestamp": "2026-11-11T11:26:32.040034+00:00",
+  "commit_sha": "d7e93f18bca42e0915a3c9b74026859385b248a1",
+  "attestor_version": "2026.2.0-preview",
+  "total_steps": 4,
+  "step_hashes": [
+    "237f173f36089a7af587cdb7fb6d54d0164ea5449da73ae2162f66028b8faa89",
+    "4eb1c106f261b959b13fbce39f4a17e408cd1e3bc5f2885cb479f543681fc014",
+    "492f7f21dbf941fdd69230359e973087fb9310129efb5ccd0b2a941ed3890c55",
+    "5239799d4d3e40b2c6ea898e9287b92d436dd1c40cbf9de7759a434057466842"
+  ],
+  "final_step_hash": "5239799d4d3e40b2c6ea898e9287b92d436dd1c40cbf9de7759a434057466842",
+  "evidence_manifest_hash": "4f1047c8b4338c74eea1e445a86040c4e539d5c07372d795649203d3be1510bd",
+  "cryptographic_signature": "32b68780a958f405dce34db41364a2ff9bf691ba1135c7716b561df45278e881"
+}
